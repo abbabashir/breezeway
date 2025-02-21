@@ -7,8 +7,23 @@
     font-size: 5.2rem;
   }
 
-  .main-header {
-    padding: 4.4rem 9.6rem;
+  main .header {
+    padding: 4.4rem 19.8rem;
+    text-align: center;
+  }
+
+  .head-text-par {
+    padding: 0 9.6rem;
+  }
+
+  .image-header-container {
+    width: 100%;
+    height: 45rem;
+    border-radius: 1.6rem;
+    background: url("../images/Come\ on\ a\ Beautiful\ Journey.png") lightgray
+      2px -171.058px / 100% 255.691% no-repeat;
+    background-size: cover;
+    background-position: top;
   }
 }
 
@@ -19,6 +34,26 @@
 @media (max-width: 75em) {
   html {
     font-size: 56.25%;
+  }
+
+  .image-header-container {
+    width: 100%;
+    height: 45rem;
+    border-radius: 1.6rem;
+    background: url("../images/Come\ on\ a\ Beautiful\ Journey.png") lightgray
+      2px -171.058px / 100% 255.691% no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .gallery-main-cont {
+    width: 100%;
+    height: 60rem;
+    border-radius: 1.6rem;
+    background: url("../images/hand-crafted.png") lightgray 2px -171.058px / 100%
+      255.691% no-repeat;
+    background-size: cover;
+    background-position: top;
   }
 }
 

@@ -6,16 +6,18 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 
 /* NAVIGATION */
 
-header {
-  max-width: 1440px;
+main {
+  max-width: 140rem;
   margin: 0 auto;
 }
 
@@ -75,7 +77,9 @@ nav {
   flex-shrink: 0;
 }
 
-.header-section-container {
+/* HEADER SECTION */
+
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,7 +144,6 @@ nav {
   background: url("../images/Come\ on\ a\ Beautiful\ Journey.png") lightgray 2px -171.058px /
     100% 255.691% no-repeat;
   background-size: cover;
-  /* background-position: top; */
 }
 
 /* ABOUT US SECTION */
@@ -159,6 +162,7 @@ nav {
       no-repeat;
   background-size: cover;
   margin-top: 6.4rem;
+  margin-bottom: 9.6rem;
 }
 
 .about-text-container {
@@ -208,6 +212,10 @@ nav {
 }
 
 /* COLLECTION SECTION */
+
+.coll-text {
+  margin-bottom: 4.4rem;
+}
 
 .collection-container {
   margin-bottom: 12.8rem;
