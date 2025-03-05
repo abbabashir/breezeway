@@ -167,7 +167,7 @@
 /*  BELOW 544PX () */
 @media (max-width: 34em) {
   .header-text-container {
-    padding: 1.2rem 1.4rem;
+    padding: 1.2rem 2rem;
   }
 
   .heading-primary {
@@ -249,6 +249,119 @@
   }
 
   /* Footer */
+}
+
+/* Below 425px === 26em */
+@media (max-width: 27em) {
+  .image-header-container {
+    height: 24rem;
+  }
+
+  .text-about {
+    padding: 1.2rem 1.4rem;
+  }
+
+  .about {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.6) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url("../images/Dance of love.png") lightgray 2px -280.449px / 100% 198.761%
+        no-repeat;
+  }
+
+  .gallery-main-cont {
+    height: 24rem;
+  }
+
+  .collection-text-container {
+    padding: 2rem 5rem;
+  }
+
+  .collection-button {
+    padding: 1.2rem 2.8rem;
+    margin-top: 0.8rem;
+  }
+
+  .contact-items {
+    gap: 1.4rem;
+    font-size: 1rem;
+  }
+
+  .newYork {
+    display: block;
+  }
+
+  .cta-link-container {
+    gap: 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  footer {
+    margin: 0 1.2rem;
+  }
+
+  .footer-container {
+    font-size: 0.7rem;
+  }
+
+  .subscribing-text {
+    font-size: 0.8rem;
+  }
+
+  .contact-items a {
+    font-size: 0.8rem;
+  }
+
+  .contact-items address {
+    font-size: 0.8rem;
+  }
+
+  .collection-text-container {
+    padding: 2rem 2rem;
+  }
+
+  .header {
+    padding: 0 1.8rem;
+  }
+
+  .head-text-par {
+    padding: 0;
+  }
+
+  .head-shop-button {
+    font-size: 1.6rem;
+    padding: 1.4rem 2.4rem;
+  }
+
+  .head-explore-button {
+    font-size: 1.6rem;
+    padding: 1.4rem 2.4rem;
+  }
+
+  .crafted {
+    display: block;
+  }
+
+  .head-text-par p {
+    font-size: 1.4rem;
+  }
+
+  .header-text-container {
+    padding: 1.2rem 1.4rem;
+  }
+
+  /* Less than 375px \16 ===24em */
+
+  @media (max-width: 24em) {
+    .cta-link-container {
+      gap: 0.8rem;
+      font-size: 0.7rem;
+    }
+  }
+
+  /* -284.449px */
 }
 
 /*  Fixing Safari flexbox gap */
