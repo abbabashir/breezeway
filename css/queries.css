@@ -344,6 +344,10 @@
     display: block;
   }
 
+  .section-call-to-action {
+    padding: 0 2rem;
+  }
+
   .head-text-par p {
     font-size: 1.4rem;
   }
