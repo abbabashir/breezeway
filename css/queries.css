@@ -345,7 +345,15 @@
   }
 
   .section-call-to-action {
-    padding: 0 2rem;
+    padding: 0 0.2rem;
+  }
+
+  .cta-input-fill {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
   }
 
   .head-text-par p {
