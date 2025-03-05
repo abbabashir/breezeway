@@ -57,54 +57,23 @@
   }
 }
 
-/**************************************/
-/* BELOW 944PX (Landscape tablets) 1200/16 = 75*/
-/**************************************/
-
 /* Below 1070PX */
 @media (max-width: 67em) {
-  .offered {
-    margin-top: 2.8rem;
+  .head-text-par {
+    padding: 1.2rem 1.8rem;
   }
 }
 
+/**************************************/
+/* BELOW 944PX (Landscape tablets) 944/16 = 59*/
+/**************************************/
 @media (max-width: 59em) {
   html {
     font-size: 50%;
   }
 
-  .description {
-    font-size: 1.6rem;
-  }
-
-  .title {
-    font-size: 1.6rem;
-  }
-
-  .heading-primary {
-    font-size: 4.4rem;
-  }
-
-  .offered {
-    margin-top: 2.8rem;
-  }
-
-  .services-content {
-    gap: 2rem;
-  }
-
-  .services-text {
-    padding: 2.8rem;
-  }
-
-  .services-text p {
-    font-size: 1.6rem;
-  }
-
-  .services-text h2 {
-    font-size: 3rem;
-    margin-bottom: 3.2rem;
-    line-height: 1.5rem;
+  .header-text-container {
+    padding: 1.2rem 14.8rem;
   }
 
   /* MOBILE NAVIGATION */
@@ -167,186 +136,112 @@
 /* BELOW 700PX (smaller tablets) */
 /**************************************/
 @media (max-width: 44em) {
-  .services-content {
-    gap: 2rem;
+  .heading-primary {
+    font-size: 4rem;
   }
 
-  .project-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .cinema {
-    grid-column: 1/-1;
+  .contact-items {
+    font-size: 1.2rem;
   }
 
-  .quote-text {
+  .cta-text {
+    font-size: 1.4rem;
+  }
+
+  .cta-link-container {
+    font-size: 1rem;
+    gap: 1.4rem;
+  }
+
+  input {
+    padding: 0 1rem;
+    font-size: 1.2rem;
+  }
+
+  .input-btn-container button {
     font-size: 1.6rem;
-    padding: 0 3rem;
-  }
-
-  .quote-container img {
-    margin-left: 8rem;
-    padding: 1.8rem;
-    width: 30%;
-  }
-
-  .work-heading {
-    font-size: 2rem;
-    font-weight: 700;
-  }
-
-  .work-text {
-    font-size: 1.6rem;
-    padding: 0 8rem;
-  }
-
-  .work-container {
-    padding: 6.4rem;
-  }
-
-  .abbacodes {
-    font-size: 1.8rem;
-  }
-
-  .rights {
-    font-size: 1.6rem;
+    padding: 1.2rem 3.4rem;
   }
 }
 
 /*  BELOW 544PX () */
 @media (max-width: 34em) {
-  .main-header {
-    padding: 3rem 3rem;
-  }
-  .services-content {
-    gap: 2rem;
-    grid-template-columns: 1fr;
+  .header-text-container {
+    padding: 1.2rem 6.4rem;
   }
 
-  .project-container {
-    grid-template-columns: 1fr;
-  }
-  .cinema {
-    grid-column: 1/-1;
-  }
-
-  /* Quotes */
-
-  .quote-text {
-    font-size: 1.4rem;
-    padding: 1.2rem 2rem;
+  .image-header-container {
+    margin: 1rem auto;
+    width: 90%;
+    height: 36rem;
   }
 
-  .quote-container img {
-    margin-left: 6rem;
-    padding: 1.6rem;
-    width: 40%;
+  .about {
+    padding: 1.2rem 0;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.6) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url("../images/Dance\ of\ love.png") lightgray 2px -324.449px / 100% 198.761%
+        no-repeat;
+    margin-top: 5.2rem;
+    margin-bottom: 6.4rem;
   }
 
-  .quote-container {
-    flex-direction: column;
-    text-align: center;
+  .about-text-container {
+    padding: 0 3.4rem;
   }
 
-  /* WORK SECTION */
+  /* COLLECTION */
 
-  .work-main-container {
-    padding: 2.2rem 3rem;
+  .coll-text {
+    font-size: 3rem;
+    margin-bottom: 2rem;
   }
 
-  .work-heading {
-    font-size: 2rem;
-    font-weight: 700;
+  .collection-gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .work-text {
+  .gallery-main-cont {
+    height: 34rem;
+  }
+
+  .collection-text-container {
+    padding: 2rem 10rem;
+  }
+
+  .collection-container {
+    margin-bottom: 8rem;
+  }
+
+  .contact-text {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-items {
+    padding: 0;
     font-size: 1.2rem;
-    padding: 0 2rem;
   }
 
-  .work-container {
-    padding: 2.2rem;
+  .contact-items-container {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.6) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url("../images/Yoruba Wedding Couple.png") lightgray 4.384px -380.431px / 100%
+        471.762% no-repeat;
+    margin-bottom: 3rem;
   }
 
-  .btn--set {
-    font-size: 1.6rem;
-  }
-
-  .work-container::after {
-    content: "";
-    position: absolute;
-    top: -20%;
-    left: -8%;
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #333;
-    background-color: #fafafa;
-    padding: 5.4rem 5.4rem;
-    transform: rotate(45deg);
-    border-radius: 50%;
-  }
-
-  .work-container::before {
-    content: "";
-    position: absolute;
-    top: 80%;
-    right: -4.8%;
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #333;
-    background-color: #fafafa;
-    padding: 6.4rem 6.4rem;
-    transform: rotate(45deg);
-    border-radius: 50%;
-  }
-
-  .style {
-    content: "";
-    position: absolute;
-    top: 83%;
-    right: -3.2%;
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #333;
-    background-color: #0e0d0d;
-    padding: 5.4rem 5.4rem;
-    transform: rotate(45deg);
-    border-radius: 50%;
-  }
-
-  /* FOOTER */
-
-  .abbacodes {
-    font-size: 1.4rem;
-    margin-top: -1.4rem;
-    display: none;
-  }
-
-  .foot-icon {
-    margin-right: 1.2rem;
-    width: 4.4rem;
-    height: 4.4rem;
-  }
-
-  .down {
+  /* Call to action */
+  .cta-content-container {
     flex-direction: column;
-    gap: 1rem;
-  }
-
-  .rights {
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .side-icons {
-    gap: 1.2rem;
-  }
-
-  .side-items {
-    width: 2rem;
-    height: 2rem;
+    gap: 4.4rem;
+    align-items: flex-start;
   }
 }
 
