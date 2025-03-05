@@ -40,6 +40,7 @@ allLinks.forEach(function (link) {
     if (href !== "#" && href.startsWith("#")) {
       const sectionEl = document.querySelector(href);
       sectionEl.scrollIntoView({ behavior: "smooth" });
+      headerEl.classList.toggle("nav-open");
     }
 
     // close mobile navigation
