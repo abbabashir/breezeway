@@ -117,6 +117,10 @@ nav {
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
 
+.breeze {
+  text-decoration: none;
+}
+
 /* HEADER SECTION */
 
 .header-text-container {
